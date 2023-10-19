@@ -42,7 +42,7 @@ Os destaques do projeto incluem:
 
 ## Demonstração
 
-Link para o site
+[Link para o site](https://projeto-noticias-notaveis.vercel.app/)
 
 ## Requisitos
 
@@ -74,7 +74,7 @@ Nesta seção, vamos detalhar como usar o projeto "Notícias Notáveis" e explor
 
 Para começar, siga estas etapas:
 
-- Clone este repositório em sua máquina local ou acesse a versão online em [inserir-link-aqui](inserir-link-aqui).
+- Clone este repositório em sua máquina local ou acesse a versão online em [https://projeto-noticias-notaveis.vercel.app/](https://projeto-noticias-notaveis.vercel.app/).
 
 - Certifique-se de ter atendido a todos os requisitos listados na seção de requisitos.
 
