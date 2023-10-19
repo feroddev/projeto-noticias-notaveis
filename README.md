@@ -1,3 +1,5 @@
+![Logo](https://i.imgur.com/p9G1k4A.png)
+
 # Notícias Notáveis
 
 O projeto "Notícias Notáveis" é uma aplicação web desenvolvida em React.js e TypeScript, que utiliza a API do IBGE para fornecer notícias atualizadas e relevantes. O projeto oferece uma experiência de leitura de código mais clara e eficiente, graças ao uso dessas tecnologias e do Styled Components para estilização.
@@ -5,13 +7,21 @@ O projeto "Notícias Notáveis" é uma aplicação web desenvolvida em React.js 
 ## Conteúdo
 
 - [Visão Geral](#visão-geral)
+
 - [Demonstração](#demonstração)
+
 - [Requisitos](#requisitos)
+
 - [Instalação](#instalação)
+
 - [Uso](#uso)
+
 - [Recursos](#recursos)
+
 - [Próximas Implementações](#próximas-implementações)
+
 - [Contribuição](#contribuição)
+
 - [Licença](#licença)
 
 ## Visão Geral
@@ -21,9 +31,13 @@ O projeto "Notícias Notáveis" oferece aos usuários uma experiência completa 
 Os destaques do projeto incluem:
 
 - Carrossel de notícias em destaque que muda a cada 6 segundos.
+
 - Filtros de notícias por categorias, como "Mais recentes", "Releases", "Notícias" e "Favoritas".
+
 - Campo de busca para encontrar notícias específicas.
+
 - Visualização de notícias em grade ou lista.
+
 - Modo escuro para uma experiência de leitura mais agradável em ambientes com pouca luz.
 
 ## Demonstração
@@ -41,9 +55,13 @@ Link para o site
 Forneça instruções passo a passo sobre como instalar e configurar o projeto em um ambiente local. Certifique-se de incluir todos os comandos necessários.
 
 ```bash
-git clone 
-cd seu-repositorio
-npm install
+
+git  clone
+
+cd  seu-repositorio
+
+npm  install
+
 ```
 
 ## Uso
@@ -52,12 +70,17 @@ Nesta seção, vamos detalhar como usar o projeto "Notícias Notáveis" e explor
 
 ### 1. Acessando o Site
 
+![Iniciando o site](https://i.imgur.com/LOlq0AU.gif)
+
 Para começar, siga estas etapas:
 
 - Clone este repositório em sua máquina local ou acesse a versão online em [inserir-link-aqui](inserir-link-aqui).
+
 - Certifique-se de ter atendido a todos os requisitos listados na seção de requisitos.
 
 ### 2. Navegando pelas Notícias
+
+![NavBar](https://i.imgur.com/XMmmumo.gif)
 
 Ao acessar o site, você será recebido com a página principal, que inclui o carrossel de notícias em destaque e a lista de notícias recentes. Aqui estão algumas maneiras de navegar pelas notícias:
 
@@ -69,11 +92,27 @@ Ao acessar o site, você será recebido com a página principal, que inclui o ca
 
 ### 3. Alternando para o Modo Escuro
 
+![Dark mode](https://i.imgur.com/HEDx92W.gif)
+
 - Para ativar o modo escuro, procure o ícone do modo escuro no header (geralmente um ícone de lua). Clique nele para alternar entre os modos de luz e escuro.
 
 ### 4. Visualização em Grade ou Lista
 
+![grade ou lista](https://i.imgur.com/z6AULvU.gif)
+
 - Você pode escolher entre duas visualizações: grade e lista. A visualização em grade exibe as notícias em formato de cartões, enquanto a visualização em lista inclui uma imagem de destaque junto com o título e a descrição da notícia. Alterne entre essas opções no menu de navegação.
+
+### 5. Favoritando Notícias
+
+![Favoritos](https://i.imgur.com/kRwyOxe.gif)
+
+Uma das funcionalidades importantes do projeto "Notícias Notáveis" é a capacidade de favoritar notícias para acessá-las facilmente posteriormente. Siga estas etapas para favoritar uma notícia:
+
+- Ao visualizar uma notícia, você encontrará um ícone de estrela ou coração próximo à notícia ou no rodapé da notícia.
+- Clique no ícone de estrela ou coração para favoritar a notícia. Ele mudará de cor ou exibirá um indicativo visual para confirmar que a notícia foi favoritada.
+- A notícia favoritada agora estará disponível na seção "Favoritas" no menu de filtros. Clique na categoria "Favoritas" para ver todas as notícias que você marcou como favoritas.
+
+Agora você pode facilmente manter um registro das notícias que considera mais interessantes e acessá-las rapidamente na categoria "Favoritas" sempre que quiser.
 
 Agora você está pronto para explorar as notícias e aproveitar ao máximo o projeto "Notícias Notáveis". Divirta-se!
 
@@ -82,10 +121,15 @@ Agora você está pronto para explorar as notícias e aproveitar ao máximo o pr
 Listamos abaixo os principais recursos da aplicação, destacando seus pontos fortes e funcionalidades exclusivas:
 
 - Exibição de notícias mais recentes e em destaque.
+
 - Carrossel de notícias em destaque que muda a cada 6 segundos.
+
 - Filtros de notícias por categorias.
+
 - Campo de busca para encontrar notícias específicas.
+
 - Visualização em modo escuro para uma experiência noturna agradável.
+
 - Opção de alternar entre visualizações de grade e lista.
 
 ## Próximas Implementações
@@ -93,4 +137,5 @@ Listamos abaixo os principais recursos da aplicação, destacando seus pontos fo
 Descrevemos a seguir as próximas melhorias ou recursos que planejamos adicionar ao projeto:
 
 - Responsividade para dispositivos de menor tamanho, garantindo que o projeto funcione bem em telas menores.
+
 - Implementação de um carrossel de notícias em destaque que acompanha as ações do usuário, proporcionando maior controle sobre a navegação nas notícias destacadas.
