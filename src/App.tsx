@@ -13,7 +13,7 @@ function App() {
   const { darkMode, setDarkMode } = useContext(Context);
 
   useEffect(() => {
-    const getDarkMode = JSON.parse(localStorage.getItem('darkMode') as string);
+    const getDarkMode = JSON.parse(localStorage.getItem('darkMode') as string || 'false');
     setDarkMode(getDarkMode);
   }, [setDarkMode]);
 

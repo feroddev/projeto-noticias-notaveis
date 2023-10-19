@@ -14,7 +14,7 @@ const mock = {
     {
       id: 38137,
       tipo: 'Notícia',
-      titulo: 'Vendas do comércio mantêm estabilidade variando -0,2% em agosto',
+      titulo: 'Primeira noticia do Brasil!',
       introducao: 'O conjunto de atividades que compõem o mix de lojas de departamentos foram os que mais contribuíram para resultado no mês - Foto: Acervo IBGE O volume de vendas do comércio em agosto variou -0,2% frente a julho de 2023. Na comparação com agosto de 2022,...',
       data_publicacao: '18/10/2023 09:00:00',
       produto_id: 9227,

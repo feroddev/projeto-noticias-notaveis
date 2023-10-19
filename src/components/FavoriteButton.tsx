@@ -15,7 +15,7 @@ function FavoriteButton({ id }: TProps) {
 
   useEffect(() => {
     setIsFavorite(verificaFavorito(id));
-  }, [id]);
+  }, [id, isFavorite]);
 
   const handleFavorite = (idCurrent: number) => {
     const favorites = JSON.parse(localStorage.getItem('favorites') as string || '[]');
