@@ -1,6 +1,5 @@
 import { useContext } from 'react';
-import { SButton, SHeader, SLogo, SText,
-  SWrapperHeader } from '../styles/styledcomponents';
+import { SButton, SHeader, SLogo, SText } from '../styles/styledcomponents';
 import Context from '../context/context';
 
 function Header() {

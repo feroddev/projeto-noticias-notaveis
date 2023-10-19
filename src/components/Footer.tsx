@@ -1,4 +1,4 @@
-import { SFooter, SWrapper } from '../styles/styledcomponents';
+import { SFooter } from '../styles/styledcomponents';
 
 function Footer() {
   return (
