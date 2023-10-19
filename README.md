@@ -1,27 +1,96 @@
-# React + TypeScript + Vite
+# Notícias Notáveis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto "Notícias Notáveis" é uma aplicação web desenvolvida em React.js e TypeScript, que utiliza a API do IBGE para fornecer notícias atualizadas e relevantes. O projeto oferece uma experiência de leitura de código mais clara e eficiente, graças ao uso dessas tecnologias e do Styled Components para estilização.
 
-Currently, two official plugins are available:
+## Conteúdo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Visão Geral](#visão-geral)
+- [Demonstração](#demonstração)
+- [Requisitos](#requisitos)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Recursos](#recursos)
+- [Próximas Implementações](#próximas-implementações)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-## Expanding the ESLint configuration
+## Visão Geral
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O projeto "Notícias Notáveis" oferece aos usuários uma experiência completa de leitura de notícias. Além das funcionalidades já mencionadas, o projeto inclui um modo escuro (dark mode) para proporcionar conforto visual durante a noite ou em ambientes com pouca luminosidade.
 
-- Configure the top-level `parserOptions` property like this:
+Os destaques do projeto incluem:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- Carrossel de notícias em destaque que muda a cada 6 segundos.
+- Filtros de notícias por categorias, como "Mais recentes", "Releases", "Notícias" e "Favoritas".
+- Campo de busca para encontrar notícias específicas.
+- Visualização de notícias em grade ou lista.
+- Modo escuro para uma experiência de leitura mais agradável em ambientes com pouca luz.
+
+## Demonstração
+
+Link para o site
+
+## Requisitos
+
+- **Node.js:** Certifique-se de que você possui o Node.js instalado em seu sistema. Você pode baixá-lo em nodejs.org.
+
+- **Gerenciador de Pacotes NPM:** O projeto usa o NPM como gerenciador de pacotes. Certifique-se de que o NPM esteja instalado juntamente com o Node.js.
+
+## Instalação
+
+Forneça instruções passo a passo sobre como instalar e configurar o projeto em um ambiente local. Certifique-se de incluir todos os comandos necessários.
+
+```bash
+git clone 
+cd seu-repositorio
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Uso
+
+Nesta seção, vamos detalhar como usar o projeto "Notícias Notáveis" e explorar suas principais funcionalidades.
+
+### 1. Acessando o Site
+
+Para começar, siga estas etapas:
+
+- Clone este repositório em sua máquina local ou acesse a versão online em [inserir-link-aqui](inserir-link-aqui).
+- Certifique-se de ter atendido a todos os requisitos listados na seção de requisitos.
+
+### 2. Navegando pelas Notícias
+
+Ao acessar o site, você será recebido com a página principal, que inclui o carrossel de notícias em destaque e a lista de notícias recentes. Aqui estão algumas maneiras de navegar pelas notícias:
+
+- **Carrossel de Notícias em Destaque:** O carrossel exibe automaticamente 10 notícias diferentes em destaque, trocando a cada 6 segundos. Você pode simplesmente observar as notícias ou clicar nas setas esquerda/direita para navegar manualmente.
+
+- **Filtros de Categorias:** No menu de navegação, você encontrará opções de filtragem, incluindo "Mais recentes", "Releases", "Notícias" e "Favoritas". Clique em uma das categorias para ver as notícias relevantes.
+
+- **Campo de Busca:** Utilize o campo de busca para procurar notícias específicas. Digite palavras-chave relacionadas à notícia que deseja encontrar e pressione Enter.
+
+### 3. Alternando para o Modo Escuro
+
+- Para ativar o modo escuro, procure o ícone do modo escuro no header (geralmente um ícone de lua). Clique nele para alternar entre os modos de luz e escuro.
+
+### 4. Visualização em Grade ou Lista
+
+- Você pode escolher entre duas visualizações: grade e lista. A visualização em grade exibe as notícias em formato de cartões, enquanto a visualização em lista inclui uma imagem de destaque junto com o título e a descrição da notícia. Alterne entre essas opções no menu de navegação.
+
+Agora você está pronto para explorar as notícias e aproveitar ao máximo o projeto "Notícias Notáveis". Divirta-se!
+
+## Recursos
+
+Listamos abaixo os principais recursos da aplicação, destacando seus pontos fortes e funcionalidades exclusivas:
+
+- Exibição de notícias mais recentes e em destaque.
+- Carrossel de notícias em destaque que muda a cada 6 segundos.
+- Filtros de notícias por categorias.
+- Campo de busca para encontrar notícias específicas.
+- Visualização em modo escuro para uma experiência noturna agradável.
+- Opção de alternar entre visualizações de grade e lista.
+
+## Próximas Implementações
+
+Descrevemos a seguir as próximas melhorias ou recursos que planejamos adicionar ao projeto:
+
+- Responsividade para dispositivos de menor tamanho, garantindo que o projeto funcione bem em telas menores.
+- Implementação de um carrossel de notícias em destaque que acompanha as ações do usuário, proporcionando maior controle sobre a navegação nas notícias destacadas.
