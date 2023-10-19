@@ -6,6 +6,7 @@ export const SHeader = styled.header`
   justify-content: space-between;
   background-color: ${(props) => props.theme.colors.headerBg};
   width: 1024px;
+  margin: 0 auto;
 `;
 
 export const SText = styled.h1`
@@ -31,7 +32,7 @@ export const SWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1024px;
+  width: max-content;
   margin: auto;
 `;
 
@@ -60,8 +61,15 @@ export const SFooter = styled.footer`
   position: fixed;
   align-items: center;
   bottom: 0;
-  width: 100vw;
+  width: fit-content;
+  font-size: small;
   justify-content: center;
+  text-align: center;
+  @media screen {
+    @media (min-width: 1024px) {
+      width: 100vw;
+    }
+  }
 `;
 
 export const SDestaque = styled.div`
@@ -153,7 +161,7 @@ export const SButtonLink = styled.a`
 
 export const SDivRoot = styled.div`
   background-color: ${(props) => props.theme.colors.background};
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 `;
 
 export const SWrapperRow = styled.div`
@@ -226,7 +234,7 @@ export const SWrapperHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 114px;
   background-color: ${(props) => props.theme.colors.headerBg};
 `;

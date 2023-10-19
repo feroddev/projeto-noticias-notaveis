@@ -11,23 +11,21 @@ function Header() {
   };
 
   return (
-    <SWrapperHeader>
-      <SHeader>
-        <SText>
-          <SLogo src="logo.png" alt="logo" />
-          Notícias Notáveis
-        </SText>
-        <SButton
-          onClick={ handleClick }
-        >
-          <img
-            src={ `${darkMode ? 'light' : 'dark'}Theme.svg` }
-            alt="icon theme"
-            style={ { width: '30px' } }
-          />
-        </SButton>
-      </SHeader>
-    </SWrapperHeader>
+    <SHeader>
+      <SText>
+        <SLogo src="logo.png" alt="logo" />
+        Notícias Notáveis
+      </SText>
+      <SButton
+        onClick={ handleClick }
+      >
+        <img
+          src={ `${darkMode ? 'light' : 'dark'}Theme.svg` }
+          alt="icon theme"
+          style={ { width: '30px' } }
+        />
+      </SButton>
+    </SHeader>
   );
 }
 
