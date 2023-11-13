@@ -65,11 +65,7 @@ export const SFooter = styled.footer`
   font-size: small;
   justify-content: center;
   text-align: center;
-  @media screen {
-    @media (min-width: 1024px) {
       width: 100vw;
-    }
-  }
 `;
 
 export const SDestaque = styled.div`
