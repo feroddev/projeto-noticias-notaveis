@@ -65,7 +65,7 @@ export const SFooter = styled.footer`
   font-size: small;
   justify-content: center;
   text-align: center;
-      width: 100vw;
+  width: 100vw;
 `;
 
 export const SDestaque = styled.div`
