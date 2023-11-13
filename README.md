@@ -56,9 +56,9 @@ Forneça instruções passo a passo sobre como instalar e configurar o projeto e
 
 ```bash
 
-git  clone
+git  clone git@github.com:feroddev/projeto-noticias-notaveis.git
 
-cd  seu-repositorio
+cd  projeto-noticias-notaveis
 
 npm  install
 
